@@ -1,0 +1,28 @@
+{
+  "name": "thepegasusai-models",
+  "version": "1.0.0",
+  "description": "thePegasusai Models - 54+ AI models with alphabet cost hierarchy and intelligent fallback system",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel --prod"
+  },
+  "keywords": [
+    "ai",
+    "models",
+    "cost-optimization",
+    "grok",
+    "assistant",
+    "thepegasusai",
+    "alphabet-hierarchy",
+    "fallback-system"
+  ],
+  "author": "thePegasusai",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thepegasusai/thepegasusai-models.git"
+  },
+  "homepage": "https://thepegasusai-models.vercel.app"
+}
