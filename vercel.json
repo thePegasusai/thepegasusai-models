@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "thepegasusai-models",
   "builds": [
     {
       "src": "index.html",
@@ -9,16 +8,6 @@
     {
       "src": "25website-integration.js",
       "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/index.html"
-    },
-    {
-      "src": "/integration.js",
-      "dest": "/25website-integration.js"
     }
   ],
   "headers": [
@@ -38,6 +27,12 @@
           "value": "Content-Type, Authorization"
         }
       ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/integration.js",
+      "destination": "/25website-integration.js"
     }
   ]
 }
